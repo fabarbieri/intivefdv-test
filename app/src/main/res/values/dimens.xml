@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="size_1">1dp</dimen>
+    <dimen name="size_05">0.5dp</dimen>
+    <dimen name="detail_image_height">250dp</dimen>
+    <dimen name="gridview_image_height">100dp</dimen>
+    <dimen name="progressbar_size_large">50dp</dimen>
+    <dimen name="progressbar_size_small">25dp</dimen>
+
+    <dimen name="letter_20">20sp</dimen>
+</resources>

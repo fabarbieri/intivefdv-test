@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".activities.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/simpleDraweeview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_image_height"
+            android:background="@color/gray_background"
+            fresco:placeholderImage="@drawable/placeholder_contact"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1"
+            android:background="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margin_20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username_label"
+                android:textSize="@dimen/letter_20"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/letter_20"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_05"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name_label"
+                android:textSize="@dimen/letter_20"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <TextView
+                android:id="@+id/tvFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/letter_20"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_05"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/last_name_label"
+                android:textSize="@dimen/letter_20"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <TextView
+                android:id="@+id/tvLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/letter_20"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_05"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_address_label"
+                android:textSize="@dimen/letter_20"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <TextView
+                android:id="@+id/tvEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/letter_20"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_05"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

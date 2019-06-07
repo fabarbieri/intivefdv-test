@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IntiveFdvTest</string>
+    <string name="main_activity_title">Contacts</string>
+    <string name="detail_activity_title">Contact detail</string>
+    <string name="error_label">Oops! Something went wrong.</string>
+    <string name="error_button">Try again</string>
+    <string name="username_label">Username:</string>
+    <string name="first_name_label">First name:</string>
+    <string name="last_name_label">Last name:</string>
+    <string name="email_address_label">Email address:</string>
+</resources>
